@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ejemploBtp';
+
+  public aux: boolean=true;
+
+  ocultarComponente(value:boolean){
+  	this.aux = value;
+  }
 }
